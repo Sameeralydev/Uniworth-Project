@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  gap: 1vh;
+  display: flex;
+  align-items: center;
+  height: 12vh;
+  border-bottom: 1px solid rgb(222, 222, 222);
+  padding: 0 3vh;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  width: 10vw;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+.page-title span {
+  font-size: 1.3vw;
+}
+/* ------------------------------header end------------------------------------- */
+/* ------------------------------checkout body------------------------------------  */
+.checkout-wrapper {
+  height: 110vh;
+  display: flex;
+  padding: 5vh 5vh;
+}
+.shipping-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 105vh;
+  width: 50%;
+  background-color: white;
+}
+.return-customer {
+  gap: 2vh;
+  padding: 0 2vh;
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  width: 98%;
+  height: 7vh;
+}
+.check-icon {
+  height: 2.5vh;
+  width: 1vw;
+}
+.check-icon img {
+  height: 100%;
+  width: 100%;
+}
+.return-link {
+  display: flex;
+  gap: 1vh;
+}
+.return-link span {
+  font-size: 1.1vw;
+  font-weight: 600;
+}
+.return-link a {
+  text-decoration: none;
+  color: red;
+  font-size: 1.1vw;
+  font-weight: 600;
+}
+.shipping-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.shipping-title span {
+  font-size: 2vw;
+  font-weight: 600;
+}
+.shipping-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5vh;
+}
+.form-wrapper {
+  display: flex;
+  background-color: white;
+  height: 100%;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 50%;
+}
+.form1 form {
+  display: flex;
+  flex-direction: column;
+  line-height: 2vh;
+}
+.form1 input {
+  padding: 0 2vh;
+  width: 95%;
+  height: 6vh;
+}
+.form1 label {
+  font-size: 1.1vw;
+  font-weight: 600;
+}
+.form1 span {
+  color: red;
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 50%;
+}
+.form2 form {
+  display: flex;
+  flex-direction: column;
+  line-height: 2vh;
+}
+.form2 input {
+  padding: 0 2vh;
+  width: 95%;
+  height: 6vh;
+}
+.form2 label {
+  font-size: 1.1vw;
+  font-weight: 600;
+}
+.form2 span {
+  color: red;
+}
+.textarea {
+  font-size: 1.1vw;
+  font-weight: 600;
+}
+.textarea textarea {
+  font-size: 1vw;
+  padding: 1vh 2vh;
+  color: grey;
+  font-weight: 600;
+}
+
+/* ----------------------------------------------------------------- */
+
+.order-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 50%;
+}
+.order-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.order-title span {
+  font-size: 1.9vw;
+  font-weight: 600;
+}
+.edit-order {
+  text-align: center;
+  background-color: #f7f7f7;
+  width: 5vw;
+  height: 4vh;
+}
+.edit-order a {
+  color: black;
+}
+.coupon-wrapper {
+  padding-bottom: 1vh;
+  padding-left: 1vh;
+  display: flex;
+  justify-content: space-between;
+}
+.coupon-title a {
+  font-size: 0.9vw;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.gift-card-title a {
+  font-size: 0.9vw;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.payment-card-wrapper {
+  padding: 3vh 2vh;
+  height: 90vh;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+.item-components {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+.item-components span {
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+.item-info {
+  align-items: center;
+  justify-content: space-around;
+  margin-left: -4vh;
+  display: flex;
+  height: 15vh;
+  width: 100%;
+}
+.item-info span {
+  font-size: 1.1vw;
+}
+.product-img {
+  display: flex;
+  height: 100%;
+  width: 15vw;
+}
+.pro-img {
+  height: 100%;
+  width: 8vw;
+}
+.pro-img img {
+  height: 100%;
+  width: 100%;
+}
+.pro-name {
+  height: 100%;
+  width: 7vw;
+}
+.pro-name span {
+  font-size: 1.2vw;
+}
+.subtotal {
+    align-items: center;
+    border-top: 1px solid black;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10vh;
+  gap: 2vh;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+.subtotal span {
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.shipping {
+    align-items: center;
+
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10vh;
+  gap: 2vh;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+.shipping span {
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.grandtotal {
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 10vh;
+  gap: 2vh;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+.grandtotal span {
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+.payment-method-container{
+    
+    height: 25vh;
+    width: 100%;
+    padding: 5vh 0vh;
+}
+.payment-title span{
+    font-size: 1.8vw;
+}
+.radio-btns{
+    padding: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.cod{
+    display: flex;
+    gap: 2vh;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #6F6F6F;
+}
+.bank-card{
+    display: flex;
+    gap: 2vh;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #6F6F6F;
+}
+.btp{
+    display: flex;
+    gap: 2vh;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #6F6F6F;
+}
+.place-order-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 0 2vh;
+    height: 10vh;
+    width: 100%;
+}
+.place-order-btn button{
+    color: white;
+    background-color: #ED1C24;
+    width: 12vw;
+    height: 5vh;
+    font-size: 1vw;
+    letter-spacing: .3vh;
+    border: 2px solid #ED1C24;
+}
+.place-order-btn button:hover{
+    background-color: white;
+    color: black;
+    transition: .3s ease;
+}
+/* ------------------------------checkout body end------------------------------------  */
+/* -------------------------------footer---------------------- */
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vh;
+  height: 7vh;
+  background-color: black;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+}
+.copyright-icon i {
+  font-size: 1.5vw;
+  padding-top: 0.5vh;
+  color: white;
+}
+.copyright-title span {
+  font-size: 1.3vw;
+  color: white;
+}
